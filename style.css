@@ -72,7 +72,7 @@ body{
     }
   }
    /*** media devices ***/
-@media (min-width: 576px) { 
+@media screen and (min-width: 576px) { 
     .image-bg h3{
         font-size:18px;
     }
@@ -80,7 +80,7 @@ body{
         color:#000;
     }
 }
-@media (min-width: 992px) { 
+@media screen and (min-width: 992px) { 
      .image-bg h3{
         font-size:20px;
     }
