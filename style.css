@@ -71,4 +71,17 @@ body{
       transform: scale(1);
     }
   }
-    
+   /*** media devices ***/
+@media (min-width: 576px) { 
+    .image-bg h3{
+        font-size:18px;
+    }
+    .linav{
+        color:#000;
+    }
+}
+@media (min-width: 992px) { 
+     .image-bg h3{
+        font-size:20px;
+    }
+}
